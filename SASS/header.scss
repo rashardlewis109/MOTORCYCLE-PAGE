@@ -1,11 +1,11 @@
 
 .container {
     background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/8b95db78f182530daeea68a3/pexels-photo-3969514.jpeg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    height: 700px;
-    padding: 0px 0px 20px 0px;
+    height: 600px;
+    padding: 0px 0px 130px 0px;
     .header {
         display: flex;
         flex-wrap: wrap;
@@ -57,6 +57,7 @@
         p {
             font-weight: 400;
             line-height: 1.5;
+            font-size: 1.1rem;
         }
     }
 }
