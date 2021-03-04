@@ -3,6 +3,82 @@
     color: white;
     font-family: $font;
     .footer {
+        max-width: 800px;
+        margin: 0 auto;
         display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 200px);
+        row-gap: 20px;
+        column-gap: 50px;
+        .footer__heading {
+            grid-column: 1 / 4;
+            text-align: center;
+            padding: 0px 180px;
+            h1 {
+                font-size: 2.3rem;
+                font-weight: 300;
+                padding: 30px 0px;
+                span {
+                    font-weight: 600;
+                }
+            }
+            p {
+                font-weight: 300;
+                line-height: 1.5;
+                font-size: 1.1rem;
+                color: darkgray;
+            }
+        }
+        .footer__address {
+           text-align: center;
+           .fas {
+               font-size: 3rem;
+               font-weight: 100;
+               padding-bottom: 20px;
+           }
+           h2 {
+               font-size: 1.4rem;
+               padding-bottom: 30px;
+               font-weight: 400;
+           }
+           p {
+            font-size: 1.2rem;
+            font-weight: 300;
+             }
+        }
+        .footer__phone {
+            text-align: center;
+            .fas {
+                font-size: 3rem;
+                font-weight: 100;
+                padding-bottom: 20px;
+            }
+            h2 {
+                font-size: 1.4rem;
+                padding-bottom: 30px;
+                font-weight: 400;
+            }
+            p {
+                font-size: 1.2rem;
+                font-weight: 300;
+            }
+        }
+        .footer__email {
+            text-align: center;
+            .far {
+                font-size: 3rem;
+                font-weight: 100;
+                padding-bottom: 20px;
+            }
+            h2 {
+                font-size: 1.4rem;
+                padding-bottom: 30px;
+                font-weight: 400;
+            }
+            p {
+                font-size: 1.2rem;
+                font-weight: 300;
+            }
+        }
     }
 }

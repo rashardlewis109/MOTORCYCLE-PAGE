@@ -356,6 +356,66 @@ table {
   color: white;
   font-family: "Roboto", sans-serif; }
   .container7 .footer {
-    display: grid; }
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    row-gap: 20px;
+    column-gap: 50px; }
+    .container7 .footer .footer__heading {
+      grid-column: 1 / 4;
+      text-align: center;
+      padding: 0px 180px; }
+      .container7 .footer .footer__heading h1 {
+        font-size: 2.3rem;
+        font-weight: 300;
+        padding: 30px 0px; }
+        .container7 .footer .footer__heading h1 span {
+          font-weight: 600; }
+      .container7 .footer .footer__heading p {
+        font-weight: 300;
+        line-height: 1.5;
+        font-size: 1.1rem;
+        color: darkgray; }
+    .container7 .footer .footer__address {
+      text-align: center; }
+      .container7 .footer .footer__address .fas {
+        font-size: 3rem;
+        font-weight: 100;
+        padding-bottom: 20px; }
+      .container7 .footer .footer__address h2 {
+        font-size: 1.4rem;
+        padding-bottom: 30px;
+        font-weight: 400; }
+      .container7 .footer .footer__address p {
+        font-size: 1.2rem;
+        font-weight: 300; }
+    .container7 .footer .footer__phone {
+      text-align: center; }
+      .container7 .footer .footer__phone .fas {
+        font-size: 3rem;
+        font-weight: 100;
+        padding-bottom: 20px; }
+      .container7 .footer .footer__phone h2 {
+        font-size: 1.4rem;
+        padding-bottom: 30px;
+        font-weight: 400; }
+      .container7 .footer .footer__phone p {
+        font-size: 1.2rem;
+        font-weight: 300; }
+    .container7 .footer .footer__email {
+      text-align: center; }
+      .container7 .footer .footer__email .far {
+        font-size: 3rem;
+        font-weight: 100;
+        padding-bottom: 20px; }
+      .container7 .footer .footer__email h2 {
+        font-size: 1.4rem;
+        padding-bottom: 30px;
+        font-weight: 400; }
+      .container7 .footer .footer__email p {
+        font-size: 1.2rem;
+        font-weight: 300; }
 
 /*# sourceMappingURL=main.css.map */
