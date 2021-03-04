@@ -1,0 +1,57 @@
+.container6 {
+    background: black;
+    color: white;
+    height: 800px;
+    font-family: $font;
+    .storage {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 375px);
+        column-gap: 20px;
+        padding: 60px 0px 0px 0px;
+        .storage__left--img {
+            background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/90ab7921148459e6b475699f/pexelsphoto2611685.jpeg");
+            background-position: center;
+            background-size: cover;
+            grid-row: 1 / 2;
+        }
+        .storage__left--heading {
+            grid-row: 2 / 3;
+            font-size: 2rem;
+            font-weight: 300;
+            padding: 40px 40px;
+            line-height: 1.1;
+            span {
+                font-weight: 600;
+            }
+        }
+        .storage__right--img {
+            background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/c33c7d8f142f5a37b99ec07f/pexelsphoto2611688.jpeg");
+            background-position: center left 0%;
+            background-size: cover;
+            object-fit: cover;
+            object-position: top;
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+        }
+        .storage__right--para {
+            padding: 40px 30px;
+            line-height: 1.5;
+            font-weight: 400;
+            .storage__right--btn {
+                margin-top: 30px;
+                a {
+                    border: 2px solid white;
+                    padding: 10px 25px;
+                    color: white;
+                    text-decoration: none;
+                    font-size: .9rem;
+                    font-weight: 300;
+                    letter-spacing: .1rem;
+                }
+            }
+        }
+    }
+}
