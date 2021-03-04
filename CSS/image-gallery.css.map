@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAY;EACR,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EACd,mCAAwB;IACpB,UAAU,EAAE,MAAM;IAClB;MACG;MACC,SAAS,EAAE,MAAM;MACjB,WAAW,EAAE,GAAG;MAChB;aAAK;QACD,WAAW,EAAE,GAAG",
+"sources": ["../SASS/image-gallery.scss"],
+"names": [],
+"file": "image-gallery.css"
+}

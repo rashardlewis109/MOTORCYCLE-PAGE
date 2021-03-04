@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAY;EACR,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EACd;iBACgB;IACZ,OAAO,EAAE,IAAI;IACb,kBAAkB,EAAE,WAAW;IAC/B;wCAAqB;MACjB,UAAU,EAAE,MAAM",
+"sources": ["../SASS/motor-services.scss"],
+"names": [],
+"file": "motor-services.css"
+}

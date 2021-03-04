@@ -1,0 +1,48 @@
+.container4 {
+    max-width: 950px;
+    margin: 0 auto;
+    font-family: $font;
+    padding: 80px 0px 0px 0px;
+    .motor__service {
+        display: grid;
+        grid-template-rows: 100px 350px 200px;
+        padding: 0px 40px;
+        .motor__service--top {
+            grid-row: 1 / 2;
+            grid-column: 1 / 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            h1 {
+                font-size: 2.3rem;
+                font-weight: 300;
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+        .motor__service--middle {
+            background-image: url("//images03.nicepage.io/c461c07a441a5d220e8feb1a/9c2130e6a33955c491068394/rfdsemin.jpg");
+            background-position: center;
+            background-size: cover;
+            object-fit: cover;
+            object-position: center;
+        }
+        .motor__service--bottom {
+            display: flex;
+            justify-content:space-between;
+            font-size: 1.1rem;
+            padding: 40px 0px;
+            font-weight: 300;
+            .motor__service--para1{
+                padding: 0px 30px;
+                line-height: 1.5;
+            }
+            .motor__service--para2{
+                padding: 0px 30px;
+                line-height: 1.5;
+            }
+        }
+    }
+}

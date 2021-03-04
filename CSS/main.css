@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -97,7 +97,7 @@ table {
   max-width: 1100px;
   height: 600px;
   margin: 0 auto;
-  padding: 50px 0px; }
+  padding: 50px 0px 0px 0px; }
   .container2 .expand {
     display: grid;
     grid-template-columns: repeat(3, 366px);
@@ -143,5 +143,163 @@ table {
         line-height: 1.8;
         font-family: "Roboto", sans-serif;
         font-weight: 400; }
+
+.container3 {
+  height: 300px;
+  font-family: "Roboto", sans-serif;
+  background: black;
+  color: white; }
+  .container3 .car__services {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 275px;
+    padding-top: 20px; }
+    .container3 .car__services .car__services--rentals {
+      padding: 40px; }
+      .container3 .car__services .car__services--rentals h1 {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1.2;
+        padding-bottom: 20px; }
+        .container3 .car__services .car__services--rentals h1 span {
+          font-weight: 600; }
+      .container3 .car__services .car__services--rentals p {
+        line-height: 1.5; }
+    .container3 .car__services .car__services--boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0px 40px 100px 40px; }
+      .container3 .car__services .car__services--boxes .car__services--box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .container3 .car__services .car__services--boxes .car__services--box .fas {
+          font-size: 4rem;
+          font-weight: 100;
+          padding-bottom: 20px; }
+        .container3 .car__services .car__services--boxes .car__services--box h1 {
+          font-weight: 400;
+          font-size: 1.2rem; }
+
+.container4 {
+  max-width: 950px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  padding: 80px 0px 0px 0px; }
+  .container4 .motor__service {
+    display: grid;
+    grid-template-rows: 100px 350px 200px;
+    padding: 0px 40px; }
+    .container4 .motor__service .motor__service--top {
+      grid-row: 1 / 2;
+      grid-column: 1 / 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .container4 .motor__service .motor__service--top h1 {
+        font-size: 2.3rem;
+        font-weight: 300; }
+        .container4 .motor__service .motor__service--top h1 span {
+          font-weight: 600; }
+    .container4 .motor__service .motor__service--middle {
+      background-image: url("//images03.nicepage.io/c461c07a441a5d220e8feb1a/9c2130e6a33955c491068394/rfdsemin.jpg");
+      background-position: center;
+      background-size: cover;
+      object-fit: cover;
+      object-position: center; }
+    .container4 .motor__service .motor__service--bottom {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.1rem;
+      padding: 40px 0px;
+      font-weight: 300; }
+      .container4 .motor__service .motor__service--bottom .motor__service--para1 {
+        padding: 0px 30px;
+        line-height: 1.5; }
+      .container4 .motor__service .motor__service--bottom .motor__service--para2 {
+        padding: 0px 30px;
+        line-height: 1.5; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px; }
+  .gallery .gallery__box1 {
+    background: chocolate;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/c33c7d8f142f5a37b99ec07f/pexelsphoto2611688.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .gallery .gallery__box2 {
+    background: crimson;
+    background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/90ab7921148459e6b475699f/pexelsphoto2611685.jpeg");
+    background-position: center 38%;
+    background-size: cover; }
+  .gallery .gallery__box3 {
+    background: darkblue;
+    background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/cc71b4947e8c5201907b1df7/pexelsphoto2611681.jpeg");
+    background-position: center;
+    background-size: cover; }
+
+.container5 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 0px 0px 0px; }
+  .container5 .image__gallery--header {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 40px; }
+    .container5 .image__gallery--header h1 {
+      font-size: 2.3rem;
+      font-weight: 300; }
+      .container5 .image__gallery--header h1 span {
+        font-weight: 600; }
+  .container5 .image__gallery--images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 325px);
+    gap: 30px; }
+    .container5 .image__gallery--images .image__images1 {
+      background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/4b57e3e99c67576d8a66acc6/pexelsphoto2948295.jpeg");
+      background-size: cover;
+      background-position: center; }
+    .container5 .image__gallery--images .image__images2 {
+      background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/2eb840bfe3a45033875119d5/pexelsphoto2949302.jpeg");
+      background-position: bottom;
+      background-size: cover; }
+    .container5 .image__gallery--images .image__images3 {
+      background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/8b8c21773d2459f8a97400ab/pexelsphoto2949293.jpeg");
+      background-position: center bottom 20%;
+      background-size: cover; }
+    .container5 .image__gallery--images .image__images4 {
+      background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/82f1d3a117795e969c937f35/pexelsphoto2948297.jpeg");
+      background-position: center;
+      background-size: cover; }
+    .container5 .image__gallery--images .image__images5 {
+      background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/fd68412f7dfc501aa858d8a0/pexelsphoto2549941.jpeg");
+      background-position: center 70%;
+      background-size: cover; }
+    .container5 .image__gallery--images .image__images6 {
+      background-image: url("//images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/22921ab1de245dbaae6fee24/pexelsphoto2116475.jpeg");
+      background-position: center;
+      background-size: cover; }
+  .container5 .image__gallery--footer {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin: 60px 0px; }
+    .container5 .image__gallery--footer a {
+      text-decoration: none;
+      border: 1px solid black;
+      padding: 15px 30px;
+      color: black; }
 
 /*# sourceMappingURL=main.css.map */
